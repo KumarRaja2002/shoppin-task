@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/api/crawl', crawlRoutes);
 
 // Server
-const PORT = process.env.PORT || 3112;
+const PORT = 3112;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
